@@ -104,3 +104,24 @@ body {
   text-align: center;
   margin: 60px 0 30px;
 }
+
+/* Todo: レスポンシブにする */
+.img-circle {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  background: #e7e7e7;
+  border: 2px solid #1308b3;
+}
+
+.img-circle-ks {
+  width: 10px;
+  float: left;
+}
+
+.img-circle-body-ks {
+  min-height: 1px;
+  padding-left: 90px;
+  padding-right: 15px;
+}
