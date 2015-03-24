@@ -18,11 +18,13 @@ body {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
+.even,
+.odd,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 
 /* Custom page header */
 .header {
@@ -59,18 +61,29 @@ body {
 }
 
 /* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.even,
+.odd {
   p + h4 {
     margin-top: 28px;
   }
+}
+
+.odd {
+  background-color: #ffffff;
+  border-bottom: 40px solid #ffffff;
+}
+
+.even {
+  background-color: #f0f0f0;
+  border-bottom: 40px solid #f0f0f0;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
-  .marketing,
+  .even,
+  .odd,
   .footer {
     padding-left: 0;
     padding-right: 0;
