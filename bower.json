@@ -2,7 +2,6 @@
   "name": "html5kagoshima",
   "private": true,
   "dependencies": {
-    "bootstrap-sass-official": "~3.2.0",
-    "modernizr": "~2.8.2"
+    "bootstrap-sass-official": "~3.2.0"
   }
 }
