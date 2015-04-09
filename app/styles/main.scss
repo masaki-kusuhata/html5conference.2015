@@ -123,6 +123,22 @@ body {
   vertical-align: middle;
 }
 
+@media screen and (min-width: 512px) {
+  .map_image {
+    height: 400px;
+    background: url(../images/location.png) top center no-repeat;
+    background-size: 1200px;
+  }
+}
+
+@media (max-width: 512px) and (min-width: 0px) {
+  .map_image {
+    height: 337px;
+    background: url(../images/location.small.png) top center no-repeat;
+    background-size: 400px;
+  }
+}
+
 .featurette {
   margin: 5px 0 5px;
 }
